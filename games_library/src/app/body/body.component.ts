@@ -28,7 +28,6 @@ export class BodyComponent {
   tipo = '';
 
   constructor() {
-    // Adicionando jogos para teste
     this.biblioteca.adicionarJogo(new JogoCarta('Poker', 1829, 'Colonos Franceses', 18));
   }
 
